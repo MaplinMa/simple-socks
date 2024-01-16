@@ -14,7 +14,7 @@ const server = socks5.createServer({
 });
 
 // start listening!
-server.listen(1080);
+server.listen(443);
 
 server.on('handshake', function () {
 	console.log();
