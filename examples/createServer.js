@@ -3,7 +3,7 @@ import socks5 from '../src/socks5.js';
 const server = socks5.createServer();
 
 // start listening!
-server.listen(1080);
+server.listen(443);
 
 server.on('handshake', function (socket) {
 	console.log();
